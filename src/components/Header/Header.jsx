@@ -9,7 +9,7 @@ function Header() {
       <Container fluid>
         <Navbar.Brand className="text-white" href="#">
           <img
-            src="../../../public/images/cartZone.jpg"
+            src="../../assets/cartZone.jpg"
             height="50px"
             style={{ border: "1px solid balck", borderRadius: "50%" }}
             alt="logo"
@@ -32,7 +32,7 @@ function Header() {
 
         <Nav.Link>
           <img
-            src="../../../public/images/dp.png"
+            src="../../assets/dp.png"
             height="50px"
             style={{ border: "1px solid balck", borderRadius: "50%" }}
             alt="logo"
