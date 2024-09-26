@@ -1,6 +1,8 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import '../../assets/images/cartZone.jpg'
+import '../../assets/images/dp.png'
 
 
 function Header() {
@@ -9,7 +11,7 @@ function Header() {
       <Container fluid>
         <Navbar.Brand className="text-white" href="#">
           <img
-            src="../../assets/cartZone.jpg"
+            src={cartZone}
             height="50px"
             style={{ border: "1px solid balck", borderRadius: "50%" }}
             alt="logo"
@@ -32,7 +34,7 @@ function Header() {
 
         <Nav.Link>
           <img
-            src="../../assets/dp.png"
+            src={dp}
             height="50px"
             style={{ border: "1px solid balck", borderRadius: "50%" }}
             alt="logo"
