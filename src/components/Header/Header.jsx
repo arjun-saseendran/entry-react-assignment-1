@@ -1,8 +1,8 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import '../../assets/images/cartZone.jpg'
-import '../../assets/images/dp.png'
+import cartZone from '../../assets/images/cartZone.jpg'
+import dp from '../../assets/images/dp.png'
 
 
 function Header() {
